@@ -4,25 +4,28 @@
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-
-android:background="#FFFFFF"
+android:background="#00E5FF"
 tools:context=".MainActivity" >
 
 <ImageView
     android:id="@+id/img"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_centerInParent="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
     android:background="@drawable/dancingcat"
+    android:layout_marginTop="50dp"
     />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
         android:paddingBottom="10dp"
         android:textSize="30sp"
         android:textStyle="italic"
-        android:text="Dancing For You"/>
+        android:textColor="#D500F9"
+        android:text="99 little bugs in a code\n99 little bugs in a code\n Take one down,\n patch it around,\n 127 little bugs in a code... "/>
 
 </RelativeLayout>
